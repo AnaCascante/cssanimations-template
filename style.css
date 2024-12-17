@@ -82,3 +82,28 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+
+/* Animation properties 
+@keyframes
+animation-name
+animation-duration
+animation-delay
+animation-iteration-count - times or infinite 
+animation-direction  - normal / reverse / alternate / alternate-reverse
+animation-timing-function - ease /liniear /ease-in / ease-out / cubic-bezier (n,n,n,n)
+animation-fill-mode - none / forwards / backwards / both 
+animation    
+*/
+
+@keyframes colorchange {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+apply colorchange {
+  animation-name: colorchange: 
+  animation-duration: 4 s; 
+  animation-timing-function: 
+}
